@@ -1,0 +1,17 @@
+return data.sort((a, b) => {
+    // Prioritaskan berdasarkan status isActive
+    if (a.isActive !== b.isActive) {
+      return a.isActive ? -1 : 1; // Aktif di depan
+    }
+    // Jika status isActive sama, urutkan berdasarkan usia
+    return a.age - b.age;
+  });
+
+1. -1:
+Mengindikasikan bahwa elemen a harus berada sebelum elemen b dalam urutan.
+
+3. 1:
+Mengindikasikan bahwa elemen a harus berada setelah elemen b dalam urutan.
+
+4. 0:
+Mengindikasikan bahwa elemen a dan b dianggap sama dalam hal pengurutan (tidak ada perubahan posisi).

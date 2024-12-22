@@ -1,0 +1,33 @@
+1. Filter Data: Mencari pengguna yang aktif (isActive: true).
+2. Sort Data: Mengurutkan data berdasarkan usia (age).
+3. Map Data: Membuat array baru dengan hanya nama dan kota.
+4. Reduce Data: Menghitung rata-rata usia.
+5. Find: Mencari pengguna berdasarkan id.
+
+
+//
+1. Total Balance per User
+Buatlah sebuah fungsi getTotalBalancePerUser yang menghitung total saldo untuk setiap pengguna. 
+Saldo dihitung dengan mengurangi jumlah withdrawal dari jumlah deposit untuk setiap pengguna.
+ Fungsi ini harus mengembalikan objek dengan id pengguna sebagai key dan saldo totalnya sebagai value.
+
+2. Users with Transactions Above Average
+Buatlah sebuah fungsi getUsersWithAboveAverageTransactions yang mengembalikan
+ daftar pengguna yang memiliki jumlah transaksi deposit di atas rata-rata seluruh transaksi deposit yang ada di sistem.
+
+3. Sort Users by Activity and Age
+Buatlah sebuah fungsi sortUsersByActivityAndAge yang mengurutkan
+ pengguna berdasarkan status isActive (aktif terlebih dahulu) dan kemudian berdasarkan usia (age) secara menaik.
+
+4. Find User with Most Transactions
+Buatlah sebuah fungsi getUserWithMostTransactions yang mengembalikan
+ pengguna yang memiliki jumlah transaksi terbanyak, baik itu deposit maupun withdrawal.
+
+5. Deactivate Inactive Users
+Buatlah fungsi deactivateInactiveUsers yang akan mematikan (set isActive menjadi false) semua pengguna yang tidak aktif selama lebih dari 1 tahun. Misalkan kita menambahkan properti lastActive dengan nilai berupa tanggal, dan kita anggap semua pengguna yang tidak aktif selama lebih dari 365 hari harus dinonaktifkan.
+
+6. Top 3 Highest Deposits
+Buatlah sebuah fungsi getTop3HighestDeposits yang mengembalikan 3 pengguna dengan total deposit terbesar, diurutkan dari yang terbesar.
+
+7. Get Transaction History for Active Users
+Buatlah fungsi getTransactionHistoryForActiveUsers yang mengembalikan daftar semua transaksi untuk pengguna yang aktif (isActive: true). Fungsi ini harus mengembalikan array objek yang berisi name dan transactions dari setiap pengguna yang aktif.

@@ -1,0 +1,4 @@
+1. MENGHAPUS SPASI DI TENGAH TEXT
+    -> string.replace(/\s+/g, '')
+2. SORT NAME BY ALFABET
+    -> data.sort((a, b) => a.name.localeCompare(b.name));

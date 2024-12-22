@@ -1,0 +1,5 @@
+-> Validasi data array
+    - if(!Array.isArray(dataArray)) throw new Error("Expected an array of data")
+
+-> Validasi isi data
+    - if(!data.length) return []
